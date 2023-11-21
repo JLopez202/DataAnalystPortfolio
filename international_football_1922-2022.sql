@@ -52,7 +52,7 @@ WHERE date >= '1922-01-01'
 SELECT * 
 FROM football.shootouts
 WHERE date >= '1922-01-01'
-## Created vies to simplify the analyzing processes 
+## Created views to simplify the analyzing processes 
 ## ended up not using this one
 CREATE VIEW match_details as 
 SELECT r.date,
